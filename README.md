@@ -2,7 +2,7 @@
 
 # Project description
 
-The goal of this project is to design and create a relational database for a local business that will allow the owner to capture and store all the important information and data that the business generates. This will allow us to also create dashboards that help us monitor business performance. The business is a local pizza place called Lex's Pizza and we will be working with the data from their opening month. The owner requiers us to concentrate in 3 main areas:
+The goal of this project is to design and create a relational database for a local business that will allow the owner to capture and store all the important information and data that the business generates. This will allow us to also create dashboards that help us monitor business performance. The business is a local pizza place called Lex's Pizza and we will be working with the data from their opening month. The owner requires us to concentrate on 3 main areas:
 * Customer Orders
 * Stock Levels
 * Staff
@@ -15,7 +15,7 @@ The dataset used for this Project is not a real world example and was generated 
 # Design of the Entity Relationship Diagram 
 The Entity Relationship Diagram was designed using a tool called QuickDBD. The following steps were taken to design the ERD:
 * Spec out all of the fields for all of the data we want to collect
-* Normalazing the data
+* Normalizing the data
 * Adding more related tables
 
 
