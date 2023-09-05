@@ -1,4 +1,4 @@
-# Relational-Database-and-Visualization-Dashboard
+# Relational Database and Visualization Dashboard
 
 # Project description
 
