@@ -31,7 +31,8 @@ Order Activity Dashboard
 
 Inventory Management
 
-<img width="1347" alt="dahsboard 2" src="https://github.com/RTeov/Relational-Database-and-Visualization-Dashboard/assets/132264886/d6343d9c-b11d-4e86-b0e1-31fac06f65b9">
+<img width="1465" alt="dashboards 2" src="https://github.com/RTeov/Relational-Database-and-Visualization-Dashboard/assets/132264886/ed71361d-aa72-436a-a0c5-b0a629b0ae49">
+
 
 Staff Management 
 
