@@ -26,17 +26,16 @@ The Entity Relationship Diagram was designed using a tool called QuickDBD. The f
 
 Order Activity Dashboard
 
-<img width="2004" height="1113" alt="Screenshot 2025-08-14 230926" src="https://github.com/user-attachments/assets/7980583a-5840-4f83-9b38-13d9500f5469" />
+<img width="1215" alt="dashboard 1" src="https://github.com/RTeov/Relational-Database-and-Visualization-Dashboard/assets/132264886/bd812dfa-a8bd-43a9-aaf4-158dda220f27">
 
 
 Inventory Management
 
-<img width="1956" height="1105" alt="Screenshot 2025-08-14 231121" src="https://github.com/user-attachments/assets/5ab15ed3-f719-4865-b0ab-2ea6b79185a8" />
+<img width="1465" alt="dashboards 2" src="https://github.com/RTeov/Relational-Database-and-Visualization-Dashboard/assets/132264886/ed71361d-aa72-436a-a0c5-b0a629b0ae49">
 
 
 Staff Management 
 
-<img width="1965" height="1110" alt="Screenshot 2025-08-14 231213" src="https://github.com/user-attachments/assets/5df0fa68-0fb2-4a43-937e-c58b48fd479e" />
-
+<img width="1346" alt="dashboard 3" src="https://github.com/RTeov/Relational-Database-and-Visualization-Dashboard/assets/132264886/91b81250-2901-40d9-afb3-0443476e0c89">
 
 

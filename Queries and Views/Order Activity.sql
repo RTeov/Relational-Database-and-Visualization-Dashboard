@@ -1,9 +1,11 @@
 SELECT
   o.order_id,
-  i.item_price,
   o.quantity,
   i.item_cat,
+  i.item_id,
   i.item_name,
+  i.item_size,
+   i.item_price,
   o.created_at,
   a.delivery_address1,
   a.delivery_address2,
