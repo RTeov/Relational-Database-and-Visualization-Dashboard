@@ -1,4 +1,3 @@
-
 <p align="center">
 	<img src="https://img.icons8.com/color/96/000000/pizza.png" alt="Pizza Icon" width="80"/>
 </p>
@@ -111,16 +110,54 @@ Sample SQL queries for business analysis are provided in the `Queries and Views/
 
 ## 📈 Power BI Dashboards
 
-The Power BI file [`Relation_Database_and_Visuliazation_Dashboard.pbix`](Relation_Database_and_Visuliazation_Dashboard.pbix) contains:
+The Power BI file [`Relation_Database_and_Visuliazation_Dashboard.pbix`](Relation_Database_and_Visuliazation_Dashboard.pbix) contains three main dashboards, each designed to answer key business questions and provide actionable insights:
 
-- **Order Activity Dashboard**
-	<img width="2004" height="1113" alt="Order Activity Dashboard" src="https://github.com/user-attachments/assets/ab2f6947-fc9d-4ba8-b7e3-13075df59c56" />
+### 🛒 Order Activity Dashboard
+<img width="800" alt="Order Activity Dashboard" src="https://github.com/user-attachments/assets/ab2f6947-fc9d-4ba8-b7e3-13075df59c56" />
 
-- **Inventory Management Dashboard**
-	<img width="1956" height="1105" alt="Inventory Management Dashboard" src="https://github.com/user-attachments/assets/85c365ef-b88b-4622-bf05-f39508077a8b" />
+**Purpose:**
+- Visualizes order trends over time, including daily/weekly sales volume and revenue.
+- Highlights the most popular menu items and their performance.
+- Breaks down orders by delivery vs. in-store pickup.
+- Maps delivery locations to identify key customer areas.
 
-- **Staff Management Dashboard**
-	<img width="1965" height="1110" alt="Staff Management Dashboard" src="https://github.com/user-attachments/assets/1345903f-0ceb-4b16-bb64-f155e7a3fe97" />
+**Business Questions Answered:**
+- What are the busiest days and times for orders?
+- Which menu items are most popular?
+- What proportion of orders are deliveries vs. pickups?
+- Where are most deliveries being made?
+
+---
+
+### 📦 Inventory Management Dashboard
+<img width="800" alt="Inventory Management Dashboard" src="https://github.com/user-attachments/assets/85c365ef-b88b-4622-bf05-f39508077a8b" />
+
+**Purpose:**
+- Tracks ingredient usage and remaining stock levels in real time.
+- Calculates ingredient costs and highlights high-cost or low-stock items.
+- Projects when ingredients will run out based on current sales trends.
+
+**Business Questions Answered:**
+- Which ingredients are being used the most?
+- Are there any ingredients at risk of running out?
+- What is the cost breakdown for each menu item?
+- How can inventory be optimized to reduce waste and cost?
+
+---
+
+### 👥 Staff Management Dashboard
+<img width="800" alt="Staff Management Dashboard" src="https://github.com/user-attachments/assets/1345903f-0ceb-4b16-bb64-f155e7a3fe97" />
+
+**Purpose:**
+- Visualizes staff schedules, shift coverage, and total hours worked.
+- Calculates labor costs by day, week, and staff member.
+- Identifies over- or under-staffed shifts.
+
+**Business Questions Answered:**
+- How are staff hours and costs distributed across the week?
+- Are there shifts with too many or too few staff?
+- Who are the highest and lowest cost employees?
+- How can staff scheduling be improved for efficiency?
 
 ---
 
@@ -133,26 +170,6 @@ The Power BI file [`Relation_Database_and_Visuliazation_Dashboard.pbix`](Relatio
 2. **Import Data** from the `Data/` folder into the corresponding tables.
 3. (Optional) **Generate More Data** using the Python script in `Data Generation Scripts/`.
 4. **Open the Power BI file** to explore the dashboards and insights.
-
----
-
-
----
-
-## 👥 Credits
-
-- **Database & Data Modeling**: [Your Name or Team]
-- **Dashboard Design**: [Your Name or Team]
-- **Demo Data Generation**: [Your Name or Team]
-
----
-
-
----
-
-## 📄 License
-
-This project is for educational and demonstration purposes only.
 
 
 
