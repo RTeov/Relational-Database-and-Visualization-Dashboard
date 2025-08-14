@@ -116,18 +116,9 @@ The Power BI file [`Relation_Database_and_Visuliazation_Dashboard.pbix`](Relatio
 <img width="800" alt="Order Activity Dashboard" src="https://github.com/user-attachments/assets/ab2f6947-fc9d-4ba8-b7e3-13075df59c56" />
 
 **Purpose:**
-- Visualizes order trends over time, including daily/weekly sales volume and revenue.
 - Highlights the most popular menu items and their performance.
 - Breaks down orders by delivery vs. in-store pickup.
 - Maps delivery locations to identify key customer areas.
-
-**Business Questions Answered:**
-- What are the busiest days and times for orders?
-- Which menu items are most popular?
-- What proportion of orders are deliveries vs. pickups?
-- Where are most deliveries being made?
-
----
 
 ### 📦 Inventory Management Dashboard
 <img width="800" alt="Inventory Management Dashboard" src="https://github.com/user-attachments/assets/85c365ef-b88b-4622-bf05-f39508077a8b" />
@@ -137,14 +128,6 @@ The Power BI file [`Relation_Database_and_Visuliazation_Dashboard.pbix`](Relatio
 - Calculates ingredient costs and highlights high-cost or low-stock items.
 - Projects when ingredients will run out based on current sales trends.
 
-**Business Questions Answered:**
-- Which ingredients are being used the most?
-- Are there any ingredients at risk of running out?
-- What is the cost breakdown for each menu item?
-- How can inventory be optimized to reduce waste and cost?
-
----
-
 ### 👥 Staff Management Dashboard
 <img width="800" alt="Staff Management Dashboard" src="https://github.com/user-attachments/assets/1345903f-0ceb-4b16-bb64-f155e7a3fe97" />
 
@@ -152,15 +135,6 @@ The Power BI file [`Relation_Database_and_Visuliazation_Dashboard.pbix`](Relatio
 - Visualizes staff schedules, shift coverage, and total hours worked.
 - Calculates labor costs by day, week, and staff member.
 - Identifies over- or under-staffed shifts.
-
-**Business Questions Answered:**
-- How are staff hours and costs distributed across the week?
-- Are there shifts with too many or too few staff?
-- Who are the highest and lowest cost employees?
-- How can staff scheduling be improved for efficiency?
-
----
-
 
 ---
 
