@@ -1,42 +1,158 @@
+
+<p align="center">
+	<img src="https://img.icons8.com/color/96/000000/pizza.png" alt="Pizza Icon" width="80"/>
+</p>
+
 # Relational Database and Visualization Dashboard
 
-# Project description
-
-The goal of this project is to design and create a relational database for a local business that will allow the owner to capture and store all the important information and data that the business generates. This will allow us to also create dashboards that help us monitor business performance. The business is a local pizza place called Lex's Pizza and we will be working with the data from their opening month. The owner requires us to concentrate on 3 main areas:
-* Customer Orders
-* Stock Levels
-* Staff
-
-MySQL was used for the creation of the Database and PowerBi was used for the creation of the Dashboards.
-
-# DataSet Overview
-The dataset used for this Project is not a real world example and was generated randomly. All of the data is clean and structured and is contained excel sheets, hence data cleaning was not necessary.
-
-# Design of the Entity Relationship Diagram 
-The Entity Relationship Diagram was designed using a tool called QuickDBD. The following steps were taken to design the ERD:
-* Spec out all of the fields for all of the data we want to collect
-* Normalizing the data
-* Adding more related tables
+<p align="center">
+	<img src="https://img.shields.io/badge/Database-MySQL-blue?logo=mysql&logoColor=white" alt="MySQL Badge"/>
+	<img src="https://img.shields.io/badge/BI-Power%20BI-yellow?logo=powerbi&logoColor=black" alt="Power BI Badge"/>
+	<img src="https://img.shields.io/badge/Python-Data%20Generation-green?logo=python&logoColor=white" alt="Python Badge"/>
+</p>
 
 
-<img width="1312" alt="ERD" src="https://github.com/RTeov/Relational-Database-and-Visualization-Dashboard/assets/132264886/ad826c37-bd50-47e2-b8b7-0d5ef59bb7f9">
+---
+
+## 🍕 Overview
+
+This project delivers a robust relational database and interactive business intelligence dashboards for **Lex's Pizza**, a local pizza restaurant. The solution enables the business owner to efficiently capture, store, and analyze all critical business data, focusing on:
+
+- **Customer Orders**
+- **Stock & Inventory Management**
+- **Staff Scheduling & Costs**
+
+The database is implemented in **MySQL**, and the dashboards are built using **Power BI**. All data is synthetic and was generated for demonstration purposes.
+
+---
 
 
-# Design of the Dashboards
+---
 
-Order Activity Dashboard
+## ✨ Features
 
-<img width="2004" height="1113" alt="Screenshot 2025-08-14 230926" src="https://github.com/user-attachments/assets/ab2f6947-fc9d-4ba8-b7e3-13075df59c56" />
+- **Normalized Relational Database**: Designed for scalability and data integrity, supporting all core business operations.
+- **Comprehensive Data Model**: Includes customers, orders, items, recipes, ingredients, inventory, staff, shifts, and rota tables.
+- **Automated Data Generation**: Python scripts for generating realistic demo data.
+- **Business Intelligence Dashboards**: Power BI dashboards for real-time insights into orders, inventory, and staff management.
+
+---
 
 
-Inventory Management
+---
 
-<img width="1956" height="1105" alt="Screenshot 2025-08-14 231121" src="https://github.com/user-attachments/assets/85c365ef-b88b-4622-bf05-f39508077a8b" />
+## 📁 Project Structure
+
+```
+├── Data/                       # All CSV and Excel data files
+├── Data Generation Scripts/    # Python scripts for generating demo data
+├── DDL for Schema/             # SQL scripts for database schema
+├── Queries and Views/          # Example SQL queries and Power BI views
+├── Relation_Database_and_Visuliazation_Dashboard.pbix  # Power BI dashboard file
+└── README.md
+```
+
+---
 
 
-Staff Management 
+---
 
-<img width="1965" height="1110" alt="Screenshot 2025-08-14 231213" src="https://github.com/user-attachments/assets/1345903f-0ceb-4b16-bb64-f155e7a3fe97" />
+## 🗄️ Database Schema
+
+The schema is fully normalized and includes the following main tables:
+
+- **Orders**: Tracks all customer orders, items, quantities, and delivery details
+- **Customers**: Customer information
+- **Address**: Delivery addresses
+- **Item**: Menu items (pizzas, sides, etc.)
+- **Recipe**: Mapping of items to ingredients
+- **Ingredient**: Ingredient details and costs
+- **Inventory**: Stock levels for each item
+- **Staff**: Employee details and pay rates
+- **Shift**: Shift definitions
+- **Rota**: Staff scheduling
+
+Refer to [`DDL for Schema/PIZZA_DB_DDL.sql`](DDL%20for%20Schema/PIZZA_DB_DDL.sql) for full table definitions and relationships.
+
+
+**Entity Relationship Diagram:**
+
+<p align="center">
+	<img width="800" alt="ERD" src="https://github.com/RTeov/Relational-Database-and-Visualization-Dashboard/assets/132264886/ad826c37-bd50-47e2-b8b7-0d5ef59bb7f9">
+</p>
+
+---
+
+
+---
+
+## 🧪 Data & Demo Generation
+
+- All data is provided in the `Data/` folder as both CSV and Excel files.
+- The script [`Data Generation Scripts/Order_Table_Generation.py`](Data%20Generation%20Scripts/Order_Table_Generation.py) can be used to generate additional order data for testing and demo purposes.
+
+---
+
+
+---
+
+## 📊 Example Analytical Queries
+
+Sample SQL queries for business analysis are provided in the `Queries and Views/` folder:
+
+- **Order Activity**: Analyze order trends, item popularity, and delivery patterns ([Order Activity.sql](Queries%20and%20Views/Order%20Activity.sql))
+- **Inventory Management**: Track ingredient usage and cost ([Inventory Management.sql](Queries%20and%20Views/Inventory%20Management.sql))
+- **Staff Management**: Calculate staff costs and shift hours ([Staff Management.sql](Queries%20and%20Views/Staff%20Management.sql))
+
+---
+
+
+---
+
+## 📈 Power BI Dashboards
+
+The Power BI file [`Relation_Database_and_Visuliazation_Dashboard.pbix`](Relation_Database_and_Visuliazation_Dashboard.pbix) contains:
+
+- **Order Activity Dashboard**
+	<img width="2004" height="1113" alt="Order Activity Dashboard" src="https://github.com/user-attachments/assets/ab2f6947-fc9d-4ba8-b7e3-13075df59c56" />
+
+- **Inventory Management Dashboard**
+	<img width="1956" height="1105" alt="Inventory Management Dashboard" src="https://github.com/user-attachments/assets/85c365ef-b88b-4622-bf05-f39508077a8b" />
+
+- **Staff Management Dashboard**
+	<img width="1965" height="1110" alt="Staff Management Dashboard" src="https://github.com/user-attachments/assets/1345903f-0ceb-4b16-bb64-f155e7a3fe97" />
+
+---
+
+
+---
+
+## 🚀 Getting Started
+
+1. **Set up MySQL** and run the schema script in [`DDL for Schema/PIZZA_DB_DDL.sql`](DDL%20for%20Schema/PIZZA_DB_DDL.sql).
+2. **Import Data** from the `Data/` folder into the corresponding tables.
+3. (Optional) **Generate More Data** using the Python script in `Data Generation Scripts/`.
+4. **Open the Power BI file** to explore the dashboards and insights.
+
+---
+
+
+---
+
+## 👥 Credits
+
+- **Database & Data Modeling**: [Your Name or Team]
+- **Dashboard Design**: [Your Name or Team]
+- **Demo Data Generation**: [Your Name or Team]
+
+---
+
+
+---
+
+## 📄 License
+
+This project is for educational and demonstration purposes only.
 
 
 
