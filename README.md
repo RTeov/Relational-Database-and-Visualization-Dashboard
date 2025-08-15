@@ -113,7 +113,7 @@ Sample SQL queries for business analysis are provided in the `Queries and Views/
 The Power BI file [`Relation_Database_and_Visuliazation_Dashboard.pbix`](Relation_Database_and_Visuliazation_Dashboard.pbix) contains three main dashboards, each designed to answer key business questions and provide actionable insights:
 
 ### 🛒 Order Activity Dashboard
-<img width="800" alt="Order Activity Dashboard" src="https://github.com/user-attachments/assets/ab2f6947-fc9d-4ba8-b7e3-13075df59c56" />
+<img width="2076" height="1165" alt="Screenshot 2025-08-15 130109" src="https://github.com/user-attachments/assets/58b28189-eb4f-4dc0-a60b-391529648815" />
 
 **Purpose:**
 - Highlights the most popular menu items and their performance.
